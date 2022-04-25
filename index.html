@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samyak Rastogi (Assignment 1)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        
+        <div class="container" >
+            <header>
+                <p><u><b>Assignment-1</b></u></p>
+            </header>
+            <div class="form">
+                <div class="heading">
+                    <p>Student Registration Form</p>
+                </div>
+                <div class="data">
+                    <form >
+                        <table class="table" >
+                            <tr>
+                                <td id="bold">
+                                    Name :
+                                </td>
+                                <td>
+                                    <input type="text" name="fname" id="fname" placeholder="Enter Full Name" />
+                                </td>
+                            </tr> 
+                            <tr>
+                                <td id="bold">
+                                    Father's Name :
+                                </td>
+                                <td>
+                                    <input type="text" name="father" id="fname" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Mother's Name :
+                                </td>
+                                <td>
+                                    <input type="text" name="mother" id="fname" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Phone Number :
+                                </td>
+                                <td>
+                                    <input type="text" name="phone" id="fname"  placeholder="017xxxxxxx" maxlength="10" />
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Email :
+                                </td>
+                                <td>
+                                    <input pattern="[^@\s]+@[^@\s]+\.[^@\s]+" name="emaill" id="fname" placeholder="sample@example.com" required/>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Gender :
+                                </td>
+                                <td>
+                                    <input type="radio" id="fname" name="genderchoice" value="Male" />Male
+                                    <input type="radio" id="fname" name="genderchoice" value="Female" />Female
+                                    <input type="radio" id="fname" name="genderchoice" value="Other"/>Other
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Date of Birth :
+                                </td>
+                                <td>
+                                    <input type="date" name="dob" id="fname" />
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Address :
+                                </td>
+                                <td>
+                                    <input type="text" name="address" id="fname" maxlength="200" placeholder="Street:-   House:-  Road:-" size="50" />
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Blood Group :
+                                </td>
+                                <td>
+                                    <select name="blood" id="blood">
+                                        <option value="" disabled selected>Select</option>
+                                        <option value="A+">A+</option>
+                                        <option value="A-">A-</option>
+                                        <option value="B+">B+</option>
+                                        <option value="B-">B-</option>
+                                        <option value="O+">O+</option>
+                                        <option value="O-">O-</option>
+                                        <option value="AB+">AB+</option>
+                                        <option value="AB-">AB-</option>
+                                    </select>
+                
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Department :
+                                </td>
+                                <td>
+                                    <input type="radio" id="fname" name="department" value="CSE" />CSE
+                                    <input type="radio" id="fname" name="department" value="EEE" />EEE
+                                    <input type="radio" id="fname" name="department" value="BBA"/>BBA
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Course
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="course" id="fname">C 
+                                    <input type="checkbox" name="course" id="fname" >C++ 
+                                    <input type="checkbox" name="course" id="fname" >JAVA
+                                    <input type="checkbox" name="course" id="fname" >AI
+                                    <input type="checkbox" name="course" id="fname" >Machine Learning
+                                    <input type="checkbox" name="course" id="fname" >Robotics
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Photo:
+                                </td>
+                                <td>
+                                    <input type="file" name="photo" id="fname">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit"/>
+                                    <input type="reset" value="reset"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+            <br><br>
+            <hr>
+            <div class="record">
+                <p><u>Table</u></p>
+                <table class="recorddata">
+                    <tr>
+                        <th>
+                            Sno.
+                        </th>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Phone no.
+                        </th>
+                        <th>
+                            Gender
+                        </th>
+                        <th>
+                            City
+                        </th>
+                        <th colspan="3">
+                            Hobbies
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Yash</td>
+                        <td>1234567890</td>
+                        <td>Male</td>
+                        <td>Agra</td>
+                        <td>Badminton</td>
+                        <td>Coding</td>
+                        <td>Music</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Rohit</td>
+                        <td>1234567890</td>
+                        <td>Male</td>
+                        <td>Mathura</td>
+                        <td>Cricket</td>
+                        <td>Video Games</td>
+                        <td>Dancing</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Priya</td>
+                        <td>1234567890</td>
+                        <td>Female</td>
+                        <td>Delhi</td>
+                        <td>Dancing</td>
+                        <td>Singing</td>
+                        <td>Reading Books</td>
+                    </tr>
+                </table>
+            </div>
+            <br><br><hr>
+            <h1 class="demoheading"><u>Demos</u></h1>
+            <div class="demos">
+
+                <div class="display" >
+                    <h2 class="headings" > <u>Display Demo</u></h2 class="headings">
+                    <div id="myDIV">
+                        <p>Inside this paragraph, we have placed a <span>little blue SPAN</span> element.</p>
+                    </div>
+                    <div id="myDIV2">
+                        <p>Inside this paragraph, we have placed a <span>little blue SPAN</span> element.</p>
+                    </div>
+                </div>
+                <div class="demoposition">
+                    <h2 class="headings"> <u>Position Demo</u></h2 class="headings">
+                        <br>
+                    <div class="static">
+                        This div element has position: static;
+                        </div>
+                    <div class="relative">
+                        This div element has position: relative;
+                        </div>
+                </div>
+    
+                <div class="float">
+                    <h2 class="headings" > <u>Float Demo</u></h2 class="headings">
+                    <div class="left">
+                        this div is left
+                    </div>
+                    <div class="right">
+                        this div is right
+                    </div>
+                </div>
+    
+               
+    
+                <div class="visibility">
+                    <h2 class="headings"> <u>Visibility Demo</u></h2 class="headings">
+                    <h2 class="a">This heading is visible</h2>
+    
+                    <h2 class="b">This heading is hidden</h2>
+    
+                    <p>The hidden heading still occupies the space.</p>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
